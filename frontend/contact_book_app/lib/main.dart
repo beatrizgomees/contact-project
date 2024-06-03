@@ -1,5 +1,5 @@
 import 'package:contact_book_app/views/home_view.dart';
-import 'package:contact_book_app/views/pageView.dart';
+import 'package:contact_book_app/views/navigation_bar.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,6 +18,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: NavigationBottomBar());
+        home: const NavigationBottomBar());
   }
 }

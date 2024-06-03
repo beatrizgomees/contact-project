@@ -5,7 +5,7 @@ import 'package:contact_book_app/components/text_form_field_component.dart';
 import 'package:contact_book_app/model/contact_model.dart';
 import 'package:contact_book_app/utils/themes/AppTheme.dart';
 import 'package:contact_book_app/viewmodel/home_view_model.dart';
-import 'package:contact_book_app/views/create_contact.dart';
+import 'package:contact_book_app/views/create_contact_view.dart';
 import 'package:contact_book_app/views/list_view.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';

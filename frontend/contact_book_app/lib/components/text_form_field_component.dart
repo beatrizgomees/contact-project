@@ -27,7 +27,7 @@ class _TextFormFieldComponentState extends State<TextFormFieldComponent> {
       onChanged: (value) {
         widget.value = value;
       },
-      autofocus: true,
+   
       decoration: InputDecoration(
         icon: widget.icon,
         iconColor: Colors.white,
